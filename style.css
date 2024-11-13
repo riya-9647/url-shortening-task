@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Cyan: hsl(180, 66%, 49%);
+  --Dark-Violet: hsl(257, 27%, 26%);
+  --Red: hsl(0, 87%, 67%);
+  --Gray: hsl(0, 0%, 75%);
+  --Grayish-Violet: hsl(257, 7%, 63%);
+  --Very-Dark-Blue: hsl(255, 11%, 22%);
+  --Very-Dark-Violet: hsl(260, 8%, 14%);
+}
+body{
+    font-family: Poppins;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.container{
+    /* padding: 30px; */
+}
+.firstbox{
+    display: flex;
+    justify-content: space-between;
+}
+.firstnav{
+    display: flex;
+}
+ .item ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .item ul li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: var(--Gray);
+  }
+  .item ul li{
+    margin-left: 30px;
+    
+  }
+  .item ul li a:hover{
+    color: var(--Very-Dark-Blue);
+  }
+.btn{
+    letter-spacing: 2px;
+     padding: 10px 20px;
+     font-size: 15px;
+     
+     color: var(--Gray);
+     border: none;
+     /* border-radius: 20%; */
+}
+.btn:hover{
+    background-color: var(--Cyan);
+    
+
+}
+  .secondbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bold{
+    font-weight: 800;
+  font-size: 70px;
+  }
+  .shorten{
+    width: 100%;
+    height: 100px;
+    background: var(--Very-Dark-Violet);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./assets/images/bg-boost-desktop.svg);
+    
+  }
+  .thirdbox{
+    display: flex;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .lastbox{
+    width: 100%;
+    height: 300px;
+    background-color: var(--Very-Dark-Blue);
+    color: var(--Gray);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 30px;
+    /* align-items: center; */
+
+  }
+  .footeritem ul li{
+    list-style-type: none;
+
+
+  }
+  .logoimg{
+    padding-left: 20px;
+  }
+  .logoimg ul{
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-left: 30px; */
+    /* align-items: center; */
+    list-style-type: none;
+
+  }
+  .footeritem ul li:hover{
+    color: var(--Cyan);
+  }
+  .logoimg:hover{
+    color: var(--Cyan);
+
+
+  }
